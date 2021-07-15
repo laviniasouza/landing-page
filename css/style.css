@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-container{    
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section-one {
+    height: 100vh;
+    background-image: url(../assets/black.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-section-two {
+    background-image: url(../assets/red.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.text2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.big-text {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+}
+
+.card-container {
+    padding: 25px;
+    max-width: 450px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    margin-left: 158px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background: #000;
+    color: #fff;
+    cursor:pointer;
+}
+
+form{
+    display: grid;
+}
+
+footer{
+    height: 50px;
+    padding: 25px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+p{
+    font-family: 'Alfa Slab One', cursive;
+    color: #fff;
+}
